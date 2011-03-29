@@ -1,0 +1,10 @@
+This repository contains a simple autostereogram generator for openFrameworks.
+
+http://en.wikipedia.org/wiki/Autostereogram
+
+ofxAutostereogram runs against the latest version of openFrameworks, available on GitHub at https://github.com/openframeworks/openFrameworks/
+
+The Kinect example also uses two other addons:
+
+ofxControlPanel https://github.com/ofTheo/ofxControlPanel/
+ofxKinect https://github.com/ofTheo/ofxKinect/tree/experimental
