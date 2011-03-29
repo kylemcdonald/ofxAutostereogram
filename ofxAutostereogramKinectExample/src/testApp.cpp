@@ -1,6 +1,5 @@
 #include "testApp.h"
 
-
 void testApp::setup() {
 	kinect.init();
 	kinect.setVerbose(true);

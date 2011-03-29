@@ -14,7 +14,10 @@ void testApp::update(){
 
 void testApp::draw(){
 	ofBackground(0);
-	float depthMultiplier = ofMap(mouseX, 0, ofGetWidth(), 0, +1);
+	float depthMultiplier = .2;
+	if(ofGetMousePressed()) {
+		depthMultiplier = ofMap(mouseX, 0, ofGetWidth(), 0, +1);
+	}
 	ofxAutostereogram::makeAutostereogram(tile, depth, depthMultiplier, sis);
 	ofSetColor(255);
 	sis.update();
@@ -24,4 +27,5 @@ void testApp::draw(){
 	ofRect(5, 5, 35, 25);
 	ofSetColor(255);
 	ofDrawBitmapString(ofToString((int) ofGetFrameRate()), 10, 20);
+	ofDrawBitmapString("Click and hold to change the depth multiplier.", 10, 40);
 }
