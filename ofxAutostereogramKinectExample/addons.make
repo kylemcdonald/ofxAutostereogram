@@ -1,0 +1,5 @@
+ofxKinect
+ofxOpenCv
+ofxXmlSettings
+ofxAutostereogram
+ofxControlPanel

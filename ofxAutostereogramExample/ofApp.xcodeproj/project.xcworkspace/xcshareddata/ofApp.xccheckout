@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67CD45CE-5066-4795-A477-CD2FCDD52CB3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ofApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>89D05C3A-5B61-4867-BE1C-3FB537501C30</key>
+		<string>ssh://github.com/kylemcdonald/openFrameworks.git</string>
+		<key>BA30554A-0937-45DA-96DE-D1B7E4338A58</key>
+		<string>ssh://github.com/kylemcdonald/ofxAutostereogram.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>addons/ofxAutostereogram/ofxAutostereogramExample/ofApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>89D05C3A-5B61-4867-BE1C-3FB537501C30</key>
+		<string>../../../../..</string>
+		<key>BA30554A-0937-45DA-96DE-D1B7E4338A58</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/kylemcdonald/ofxAutostereogram.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>89D05C3A-5B61-4867-BE1C-3FB537501C30</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA30554A-0937-45DA-96DE-D1B7E4338A58</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxAutostereogram</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89D05C3A-5B61-4867-BE1C-3FB537501C30</string>
+			<key>IDESourceControlWCCName</key>
+			<string>openFrameworks</string>
+		</dict>
+	</array>
+</dict>
+</plist>

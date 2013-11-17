@@ -3,7 +3,7 @@
 void testApp::setup() {
 	ofSetVerticalSync(true);
 
-	panel.setup("Control Panel", 0, 0, 250, 480 - 20);
+	panel.setup();//"Control Panel", 0, 0, 250, 480 - 20);
 	panel.addPanel("Controls");
 	panel.addSlider("Depth Multiplier", "depthMultiplier", .2, 0, 1);
 	panel.addSlider("Near Clipping", "nearClipping", 50, 20, 400);
@@ -13,7 +13,7 @@ void testApp::setup() {
 	panel.addToggle("Export", "export", false);
 
 	kinect.init();
-	kinect.setVerbose(true);
+	//kinect.setVerbose(true);
 	kinect.open();
 	
 	tile.loadImage("tile.png");
@@ -27,9 +27,9 @@ void testApp::update() {
 	bool newMultiplier = panel.hasValueChanged("depthMultiplier");
 
 	if(panel.hasValueChanged("nearClipping") || panel.hasValueChanged("farClipping")) {
-		ofxKinectCalibration::setClippingInCentimeters(
-			panel.getValueF("nearClipping"),
-			panel.getValueF("farClipping"));
+		kinect.setDepthClipping(
+			panel.getValueF("nearClipping") * 10,
+			panel.getValueF("farClipping") * 10);
 	}
 	
 	kinect.update();
